@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config = {
   darkMode: ['class'],
@@ -131,7 +131,7 @@ const config = {
     },
   },
   plugins: [require('tailwindcss-animate')],
-} satisfies Config
+} satisfies Config;
 
 // function addVariablesForColors({ addBase, theme }: any) {
 //   let allColors = flattenColorPalette(theme('colors'))
@@ -143,4 +143,4 @@ const config = {
 //   })
 // }
 
-export default config
+export default config;
